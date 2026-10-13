@@ -1,0 +1,21 @@
+# 2026 BARAM — 재현 환경 (Python 3.11.6, Windows 11 / Linux 호환)
+# torch 는 CUDA 12.8 빌드 사용:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+# 추론(inference.py)만 실행할 경우 numpy, pandas 만 있으면 된다.
+
+numpy==2.4.2
+pandas==2.3.3
+torch==2.11.0
+scipy==1.17.1
+scikit-learn==1.6.1
+netCDF4==1.7.4
+xarray==2026.7.0
+pyarrow==24.0.0
+joblib==1.5.3
+tqdm==4.68.4
+requests==2.34.2
+
+# 보조 실험용 (최종 조립 경로에서는 미사용)
+lightgbm==4.6.0
+xgboost==3.2.0
+matplotlib==3.11.0
